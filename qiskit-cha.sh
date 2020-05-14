@@ -17,7 +17,7 @@ echo -e "\n# virtualenv and virtualenvwrapper" >> ~/.bashrc
 echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bashrc
 echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bashrc
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
-
+source ~/.bashrc
 # creating virtual environment for qiskit challenge
 
 mkvirtualenv -p37 qis-ch
